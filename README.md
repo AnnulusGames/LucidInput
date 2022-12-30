@@ -3,7 +3,7 @@ Simple input system for Unity
 
 [![license](https://img.shields.io/badge/LICENSE-MIT-green.svg)](LICENSE.md)
 
-!(Assets/LucidInput/Documentation~/Header.png)
+<img src="https://github.com/AnnulusGames/LucidInput/blob/main/Assets/Documentation~/Header.png" width="800">
 
 ## 概要
 
