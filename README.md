@@ -1,7 +1,7 @@
 # Lucid Input
 Simple input system for Unity
 
-[![license](https://img.shields.io/badge/LICENSE-MIT-green.svg)](LICENSE.md)
+[![license](https://img.shields.io/badge/LICENSE-MIT-green.svg)](LICENSE)
 
 <img src="https://github.com/AnnulusGames/LucidInput/blob/main/Assets/Documentation~/Header.png" width="800">
 
@@ -377,4 +377,4 @@ GetAxisによって取得できる値は独自の計算方式で算出される�
 
 ## ライセンス
 
-[Mit License](LICENSE.md)
+[Mit License](LICENSE)
