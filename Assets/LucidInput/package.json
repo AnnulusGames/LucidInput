@@ -1,0 +1,16 @@
+{
+    "name": "com.annulusgames.lucid-input",
+    "displayName": "Lucid Input",
+    "version": "1.0.0",
+    "unity": "2019.4",
+    "license": "MIT",
+    "author": {
+        "name": "Annulus Games",
+        "url": "https://github.com/AnnulusGames"
+    },
+    "type": "tool",
+    "description": "Simple input system for Unity",
+    "dependencies": {
+
+    }
+}
