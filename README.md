@@ -36,6 +36,13 @@ Lucid InputはUnityのInputクラスを拡張し、同時押しやフリック�
 }
 ```
 
+### Namespace
+LucidInputを利用する場合は、ファイルの冒頭に以下の一行を追加します。
+
+```cs
+using AnnulusGames.LucidTools.InputSystem;
+```
+
 ## Input Systemに対応
 Input Systemを導入すると、Lucid Inputは自動的にInput SyetemのAPIを利用するように切り替わります。もしLucid Inputがどちらを利用するかを切り替えたい場合は、LucidInput.activeInputHandlingを変更してください。
 
