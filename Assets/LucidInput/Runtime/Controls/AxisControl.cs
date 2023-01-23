@@ -16,7 +16,7 @@ namespace AnnulusGames.LucidTools.InputSystem
             return getValue();
         }
 
-        public float GetValueRaw()
+        public virtual float GetValueRaw()
         {
             float value = GetValue();
             return value == 0f ? 0f : (value > 0f ? 1f : -1f);
