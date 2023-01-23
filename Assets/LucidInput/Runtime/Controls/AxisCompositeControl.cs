@@ -44,6 +44,7 @@ namespace AnnulusGames.LucidTools.InputSystem
             negativeButton.Update();
 
             UpdateValue();
+            UpdateRawValue();
 
             timeLastUpdate = Time.realtimeSinceStartup;
         }
@@ -61,6 +62,14 @@ namespace AnnulusGames.LucidTools.InputSystem
             else currentValue = valuePositive > valueNegative ? valuePositive : -valueNegative;
         }
 
+        private void UpdateRawValue()
+        {
+            currentRawValue = 0;
+
+            currentRawValue += positiveButton.GetButton() ? 1 : 0;
+            currentRawValue -= negativeButton.GetButton() ? 1 : 0;
+        }
+
         public override float GetValue()
         {
             return currentValue;
@@ -68,7 +77,7 @@ namespace AnnulusGames.LucidTools.InputSystem
 
         public override float GetValueRaw()
         {
-            return 
+            return currentRawValue;
         }
     }
 
