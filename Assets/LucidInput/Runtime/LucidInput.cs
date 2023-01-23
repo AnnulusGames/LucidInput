@@ -470,7 +470,7 @@ namespace AnnulusGames.LucidTools.InputSystem
 
                 foreach (var axisInput in pair.Value)
                 {
-                    if (Math.Abs(result) < Math.Abs(axisInput.GetValue()))
+                    if (Math.Abs(result) < Math.Abs(axisInput.GetValueRaw()))
                     {
                         result = axisInput.GetValueRaw();
                     }
